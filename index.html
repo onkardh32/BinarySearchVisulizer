@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Binary Search Visualizer</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Binary Search Visualizer</h1>
+            <input
+                type="text"
+                id="arrayInput"
+                placeholder="Enter sorted array elements separated by commas"
+            />
+            <input
+                type="number"
+                id="targetInput"
+                placeholder="Enter target number"
+            />
+            <button onclick="binarySearch()">Start Search</button>
+            <div class="array-display" id="arrayDisplay"></div>
+            <div class="status" id="status"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
